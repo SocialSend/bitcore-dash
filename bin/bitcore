@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var bitcore = require('bitcore-node-dash/lib/cli/bitcore');
+var bitcore = require('socialsendcore-node/lib/cli/bitcore');
 var path = require('path');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-api-dash', 'insight-ui-dash'];
+var additionalServices = ['insight-api-socialsend', 'insight-ui-socialsend'];
 bitcore(servicesPath, additionalServices);

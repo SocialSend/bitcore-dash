@@ -5,7 +5,7 @@ Requires=network.target
 [Service]
 Type=simple
 WorkingDirectory=/usr/opt/bitcore
-ExecStart=/usr/bin/bitcore-bitcoind -datadir=/home/bitcore/.bitcore/data/
+ExecStart=/usr/bin/socialsendcore-bitcoind -datadir=/home/bitcore/.bitcore/data/
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 RestartSec=15

@@ -1,24 +1,21 @@
-# Bitcore-Dash
+# socialsendcore
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-dash)
-[![Build Status](https://img.shields.io/travis/dashevo/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-dash)
+Infrastructure to build SocialSend and blockchain-based applications for the next generation of financial technology.
 
-Infrastructure to build Dash and blockchain-based applications for the next generation of financial technology.
-
-**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashevo/bitcore-lib-dash
+**Note:** If you're looking for the socialsendcore Library please see: https://github.com/SocialSend/socialsendcore-lib
 
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g bitcore-dash
+npm install -g socialsendcore
 ```
 
 Spin up a full node and join the network:
 
 ```bash
-npm install -g bitcore-dash
+npm install -g socialsendcore
 bitcored
 ```
 
@@ -26,7 +23,7 @@ You can then view the Insight block explorer at the default location: `http://lo
 
 Create a transaction:
 ```js
-var bitcore = require('bitcore-dash');
+var bitcore = require('socialsendcore');
 var transaction = new bitcore.Transaction();
 var transaction.from(unspent).to(address, amount);
 transaction.sign(privateKey);
@@ -34,24 +31,23 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Dash](https://github.com/dashevo/bitcore-node-dash) - A full node with extended capabilities using Dash Core
-- [Insight API-Dash](https://github.com/dashevo/insight-api-dash) - A blockchain explorer HTTP API
-- [Insight UI-Dash](https://github.com/dashevo/insight-ui-dash) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-dash) - A multisig HD service for wallets
-- [Wallet Client](https://github.com/dashevo/bitcore-wallet-client-dash) - A client for the wallet service
+- [Node](https://github.com/SocialSend/socialsendcore-node) - A full node with extended capabilities using SocialSend Core
+- [Insight API](https://github.com/SocialSend/insight-api-socialsend) - A blockchain explorer HTTP API
+- [Insight UI](https://github.com/SocialSend/insight-ui-socialsend) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/SocialSend/socialsendcore-wallet-service) - A multisig HD service for wallets
+- [Wallet Client](https://github.com/SocialSend/socialsendcore-wallet-client) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
-- Copay - An easy-to-use, multiplatform, multisignature, secure Dash wallet
+- Copay - An easy-to-use, multiplatform, multisignature, secure SocialSend wallet
 
 ## Libraries
 
-- [Lib-Dash](https://github.com/dashevo/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
+- [Lib](https://github.com/SocialSend/socialsendcore-lib) - All of the core SocialSend primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-Dash](https://github.com/dashevo/bitcore-p2p-dash) - The peer-to-peer networking protocol
-- [Mnemonic-Dash](https://github.com/dashevo/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
-- Channel - Micropayment channels for rapidly adjusting Dash transactions
-- [Message-Dash](https://github.com/dashevo/bitcore-message-dash) - Dash message verification and signing
-- [ECIES-Dash](https://github.com/dashevo/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [P2P](https://github.com/SocialSend/socialsendcore-p2p) - The peer-to-peer networking protocol
+- [Mnemonic](https://github.com/SocialSend/socialsendcore-mnemonic) - Implements mnemonic code for generating deterministic keys
+- Channel - Micropayment channels for rapidly adjusting SocialSend transactions
+- [Message](https://github.com/SocialSend/socialsendcore-message) - SocialSend message verification and signing
 
 ## Documentation
 
@@ -70,10 +66,10 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-dash/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/SocialSend/socialsendcore/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
 ## License
 
-Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as SocialSendCore itself. See [LICENSE](LICENSE) for more info.

@@ -1,6 +1,6 @@
-# Contributing to Bitcore-Dash
+# Contributing to socialsendcore
 
-We're working hard to make *bitcore-dash* the most powerful JavaScript library for working with Dash. Our goal is to have *bitcore-dash* be a library that can be used by anyone interested in Dash, and to level expertise differences with great design and documentation.
+We're working hard to make *socialsendcore* the most powerful JavaScript library for working with SocialSend. Our goal is to have *socialsendcore* be a library that can be used by anyone interested in SocialSend, and to level expertise differences with great design and documentation.
 
 ## Quick Checklist
 
@@ -12,7 +12,7 @@ Ideally, please make sure to run:
 
 ## Design Guidelines
 
-These are some global design goals in bitcore-dash to which any change should adhere.
+These are some global design goals in socialsendcore to which any change should adhere.
 
 ### D1 - Naming Matters
 
@@ -238,8 +238,8 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add dash git@github.com:dashevo/bitcore-dash.git
-git pull --rebase dash master
+git remote add socialsend git@github.com:SocialSend/socialsendcore.git
+git pull --rebase socialsend master
 ```
 
 Note that we require rebasing your branch instead of merging it, for commit readability reasons.
@@ -250,11 +250,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/dashevo/bitcore-dash](https://github.com/dashevo/bitcore-dash) in your web browser and issue a new pull request.
+Finally go to [github.com/SocialSend/socialsendcore](https://github.com/SocialSend/socialsendcore) in your web browser and issue a new pull request.
 
 Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcore.
 
 If you have any questions feel free to post them to
-[github.com/dashevo/bitcore-dash/issues](https://github.com/dashevo/bitcore-dash/issues).
+[github.com/SocialSend/socialsendcore/issues](https://github.com/SocialSend/socialsendcore/issues).
 
 Thanks for your time and code!

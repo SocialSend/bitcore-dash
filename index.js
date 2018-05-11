@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib-dash');
+var bitcore = require('socialsendcore-lib');
 
 module.exports = bitcore;
